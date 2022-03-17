@@ -1,0 +1,55 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <style>
+        label, input {
+            font-size: medium;
+        }
+    </style>
+</head>
+<body>
+    
+    <header class="top-navbar">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="container">
+				<a class="navbar-brand" href="index.html">
+					<img src="images/logo.png" alt="" />
+				</a>
+			</div>
+		</nav>
+	</header> <br><br><br><br><br>
+
+    <form>
+        <div class="container">
+            <div class="heading-title text-center">
+                <h4>Register</h4>
+            </div>
+          <hr>
+      
+          <label for="email"><b>Nickname</b></label>
+          <input id="input_date" class="datepicker picker__input form-control" type="text" placeholder="Enter Nickname" name="nickname" id="nickname" required>
+      
+          <label for="psw"><b>Password</b></label>
+          <input id="input_date" class="datepicker picker__input form-control" type="password" placeholder="Enter Password" name="psw" id="psw" required>
+      
+          <label for="psw-repeat"><b>Repeat Password</b></label>
+          <input id="input_date" class="datepicker picker__input form-control" type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+          <hr>
+      
+          <div class="submit-button text-center">
+            <button class="btn btn-common" id="submit" type="submit">Register</button>
+    
+        </div> <br> <br>
+          <p>Already have an account? <a href="login.html">Sign in</a></p>
+        </div>
+      
+      </form> 
+
+</body>
+</html>
